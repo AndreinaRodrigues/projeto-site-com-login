@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+        </nav>
+
+        <from action="#" class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button type="submit"><i class='bx bx-search'></i></button>
+        </from>
+    </header>
+
+    <div class="backgrond"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class='bx bx-expand-horizontal'></i> Andreina</h2>
+
+            <div class="text-sci">
+                <h2>Bem-vindo!<br><span>Confira nosso novo site</span></h2>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, enim.</p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/andreina-rodrigues-071b62254/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://instagram.com/dree_rodrigues1?igshid=ZDdkNTZiNTM="><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/AndreinaRodrigues"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Entrar</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>E-mail</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Lembrar de mim?</label>
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+
+                    <button type="submit" class="btn">Entrar</button>
+
+                    <div class="login-register">
+                        <p>Não tem uma conta? <a href="#" class="register-link">Cadastre-se</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Cadastre-se</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label>Nome</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>E-mail</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Concordo com os termos e condições</label>
+                    </div>
+
+                    <button type="submit" class="btn">Cadastrar</button>
+
+                    <div class="login-register">
+                        <p>Já tem uma conta? <a href="#" class="login-link">Entrar</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
